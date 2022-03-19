@@ -10,5 +10,5 @@ A website that offers fitness training services
 ## Website
 http://tddstuke.github.io/run-buddy/
 
-## Contriibution
+## Contribution
 Made with ❤️ by Todd Stuke
