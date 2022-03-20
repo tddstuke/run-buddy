@@ -43,7 +43,7 @@ header nav ul {
   list-style: none;
 }
 header nav ul li a {
-  margin: 0 30px;
+  padding: 10px 15px;
   font-weight: lighter;
   font-size: 1.55vw;
 }
@@ -80,6 +80,7 @@ section {
 .hero {
   display: flex;
   justify-content: center;
+  align-items: flex-start;
   flex-wrap: wrap;
   background-image: url("./images/hero-bg.jpg");
   background-size: cover;
@@ -93,7 +94,7 @@ section {
   margin: 3.5%;
   color: #fff;
   font-size: 18px;
-  line-height: 1.3;
+  line-height: 1.2;
 }
 
 .hero-cta h2 {
@@ -139,7 +140,7 @@ section {
 /*form and hero style end*/
 
 .section-title {
-  font-size: 55px;
+  font-size: 48px;
   color: #024e76;
   border-bottom: 3px solid;
   padding-bottom: 20px;
@@ -201,14 +202,14 @@ section {
 
 .step-info {
   flex: 2 70%;
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
   align-items: center;
 }
 
 .step-img {
   flex: 1 12%;
-  margin-right:20px;
+  margin-right: 20px;
 }
 
 .step-img img {
@@ -216,7 +217,7 @@ section {
 }
 
 .trainers {
-  width:100%;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -255,7 +256,7 @@ section {
 /* reach out style starts */
 
 .contact-info > * {
-  flex:1;
+  flex: 1;
   margin: 15px;
 }
 .contact {
@@ -289,33 +290,31 @@ section {
   margin: 20px 0;
   line-height: 1.5;
   font-size: 16px;
-  
-
 }
 
 .contact-info a {
   color: #fce138;
 }
 
-.contact-form input, .contact-form textarea {
+.contact-form input,
+.contact-form textarea {
   border: 1px solid #024e76;
   display: block;
   padding: 7px 15px;
   font-size: 16px;
-  color:#024e76;
+  color: #024e76;
   width: 100%;
   margin-bottom: 15px;
   margin-top: 5px;
 }
 .contact-form button {
   width: 100%;
-  border:none;
-  background:#fce138;
+  border: none;
+  background: #fce138;
   color: #024e76;
   text-align: center;
   padding: 15px 0;
-  font-size:16px;
-
+  font-size: 16px;
 }
 /* reach out styles end */
 
@@ -329,4 +328,23 @@ section {
 
 .flex-row {
   display: flex;
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    /* this will be applied on any screen smaller than 980px */
+  }
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 768px) {
+    /* this will be applied on any screen between 768px and 575 */
+  }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    /* this will be applied on any screen smaller than 575px */
+ 
+  }
 }
