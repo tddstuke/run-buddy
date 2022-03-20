@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* border: 2px dashed red */
+  /* border: 2px dashed red; */
 }
 
 body {
@@ -169,23 +169,50 @@ section {
   background: #fce138;
 }
 
-.steps div {
-  margin-bottom: 80px;
+.step {
+  margin: 50px auto;
+  padding-bottom: 50px;
+  width: 80%;
+  border-bottom: 1px solid #39a6b2;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.steps img {
-  width: 15%;
-  margin: 10px 0;
+.step-text {
+  flex: 12;
+}
+.step-text p {
+  font-size: 18px;
 }
 
-.steps h3 {
+.step-text h4 {
+  font-size: 26px;
+  line-height: 1.5;
+  color: #024e76;
+}
+
+.step h3 {
   color: #024e76;
   font-size: 46px;
-  margin-top: 10px;
+  flex: 1 30%;
 }
 
-.steps span {
-  font-size: 38px;
+.step-info {
+  flex: 2 70%;
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.step-img {
+  flex: 1 12%;
+  margin-right:20px;
+}
+
+.step-img img {
+  max-width: 100%;
 }
 
 .trainers {
@@ -276,5 +303,5 @@ section {
 }
 
 .flex-row {
-  display:flex;
+  display: flex;
 }
